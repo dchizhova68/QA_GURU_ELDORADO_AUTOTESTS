@@ -16,6 +16,7 @@ public class VerteraTests extends TestBase {
     final String searchValue = "Можно ли употреблять продукты компании";
     @Test
     @DisplayName("Проверка cтраницы О нас")
+    @Tag("FullScript")
     void openRightMenuTest() {
         verteraPage.openPage()
                 .clickButtonSkip()
@@ -25,6 +26,7 @@ public class VerteraTests extends TestBase {
 
     @Test
     @DisplayName("Проверка поиска вопросов")
+    @Tag("FullScript")
     void searchTest() {
         verteraPage.openPage()
                 .clickButtonSkip()
@@ -39,6 +41,7 @@ public class VerteraTests extends TestBase {
     })
     @ParameterizedTest
     @DisplayName("Проверка выбора города")
+    @Tag("FullScript")
     void changeCityTest(String cityName) {
         verteraPage.openPage()
                 .clickButtonSkip()
@@ -48,6 +51,7 @@ public class VerteraTests extends TestBase {
 
     @Test
     @DisplayName("Проверка выпадающей панели со слайдером")
+    @Tag("FullScript")
     void sliderTest() {
         verteraPage.openPage()
                 .clickButtonSkip()

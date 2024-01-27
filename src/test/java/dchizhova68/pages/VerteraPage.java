@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
 
 import com.codeborne.selenide.ElementsCollection;
+import org.junit.jupiter.api.Tag;
 
 public class VerteraPage {
     private SelenideElement
