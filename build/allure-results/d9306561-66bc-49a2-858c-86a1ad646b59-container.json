@@ -1,0 +1,1 @@
+{"uuid":"d9306561-66bc-49a2-858c-86a1ad646b59","name":"VerteraTests","children":["db633237-a246-4c10-9c7b-ddcf4f78f505","c4e78c48-833b-4f8e-9fa8-82e2dcd43da2"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1706371175785,"stop":1706371175807}],"afters":[],"start":1706371175753,"stop":1706371255020}

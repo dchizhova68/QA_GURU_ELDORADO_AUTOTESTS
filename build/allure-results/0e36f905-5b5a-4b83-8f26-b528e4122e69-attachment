@@ -1,0 +1,17 @@
+[2024-01-27T16:00:32.177Z] [SEVERE] https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+[2024-01-27T16:00:45.039Z] [WARNING] webpack://mcw-frontend/./node_modules/inferno/index.esm.js? 36:10 "You are running production build of Inferno in development mode. Use dev:module entry point."
+[2024-01-27T16:00:45.390Z] [SEVERE] https://mcw.mango-office.ru/multichannel/12275?uid=pryRPWxFfUjX4ERyfp1r&url=https%3A%2F%2Fvertera.org%2Fru%2F&title=Vertera+-+%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F+%D0%B4%D0%BB%D1%8F+%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B+%D0%B8+%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D1%8F+%D0%B8%D0%B7+%D0%BB%D0%B0%D0%BC%D0%B8%D0%BD%D0%B0%D1%80%D0%B8%D0%B8&mgoSid=6047s7xgh911001bftf8&shortNumberForMgoSid= - Failed to load resource: the server responded with a status of 404 (Not Found)
+[2024-01-27T16:00:45.390Z] [SEVERE] webpack://mcw-frontend/./src/api/widget-service.js? 34:14 "error getWidget"
+[2024-01-27T16:00:45.391Z] [SEVERE] webpack://mcw-frontend/./src/actions/index.js? 161:2 Uncaught (in promise)
+[2024-01-27T16:00:47.049Z] [WARNING] https://api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU 2:12 "API-key is required for correct API work. Get your API-key here: https://developer.tech.yandex.ru"
+[2024-01-27T16:00:54.766Z] [SEVERE] https://vertera.org/ru/main.0c092f56a8bacf90fe14.js 0:236861 "ERROR" TypeError: Cannot read properties of undefined (reading 'depth')
+    at https://vertera.org/ru/21.1e1aee4d3abcba53a704.js:1:61151
+    at Array.forEach (<anonymous>)
+    at n.receiveFilter (https://vertera.org/ru/21.1e1aee4d3abcba53a704.js:1:61030)
+    at t._next (https://vertera.org/ru/21.1e1aee4d3abcba53a704.js:1:61417)
+    at t.__tryOrUnsub (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:493352)
+    at t.next (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:492497)
+    at t._next (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:491541)
+    at t.next (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:491212)
+    at t.next (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:575335)
+    at t.nextInfiniteTimeWindow (https://vertera.org/ru/main.0c092f56a8bacf90fe14.js:1:703277)
