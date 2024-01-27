@@ -2,6 +2,7 @@ package dchizhova68;
 
 import dchizhova68.pages.VerteraPage;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -59,6 +60,7 @@ public class VerteraTests extends TestBase {
             "Детское питание"
     })
     @ParameterizedTest
+    @Tag("FullScript")
     @DisplayName("Проверка навигационной цепочки")
     void breadcrumbsTest(String category) {
         verteraPage.openPage()

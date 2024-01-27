@@ -2,7 +2,6 @@ package dchizhova68.pages;
 
 
 import com.codeborne.selenide.SelenideElement;
-import dchizhova68.pages.components.CalendarComponent;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.CollectionCondition.exactTexts;
@@ -28,7 +27,6 @@ public class VerteraPage {
             categoryList = $$(".category--item--name"),
             breadcrumbsList = $$(".breadcrumbs li");
 
-    CalendarComponent calendar = new CalendarComponent();
 
     @Step("Открыть главную страницу")
     public VerteraPage openPage() {
